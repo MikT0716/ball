@@ -27,6 +27,7 @@ p {
   margin: 0 auto;
   margin-bottom: 40px;
   color: white;
+  user-select: none;
 }
 button {
   width: 150px;

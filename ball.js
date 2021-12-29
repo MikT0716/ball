@@ -1,4 +1,5 @@
 let ball = document.getElementById("float-circle");
+let clickide = document.getElementById("clickide");
 
 // Write your code below
 
@@ -13,8 +14,8 @@ function down() {
 document.onkeydown = up;
 document.onkeyup = down;
 
-document.ontouchstart = up;
-document.ontouchend = down;
+clickide.ontouchstart = up;
+clickide.ontouchend = down;
 
 document.querySelector("p").onselectstart = function () {
   return false;

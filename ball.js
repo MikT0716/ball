@@ -15,3 +15,7 @@ document.onkeyup = down;
 
 document.ontouchstart = up;
 document.ontouchend = down;
+
+document.querySelector("p").onselectstart = function () {
+  return false;
+};
